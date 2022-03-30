@@ -1,0 +1,325 @@
+body {
+  background: linear-gradient(304.58deg, #f4ece1 57.1%, #fcfbf7 145.5%);
+}
+
+#logoimage {
+  position: absolute;
+  width: 34px;
+  height: 32px;
+  left: 87px;
+  top: 72px;
+}
+#logotext {
+  position: absolute;
+  width: 58px;
+  height: 45px;
+  left: 123px;
+  top: 46px;
+  font-family: 'Poppins', sans-serif;
+}
+ul {  /* BAR NAVIGATION*/ 
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  width: 66px;
+
+  left: 400px;
+  top: 59px;
+  list-style: none;
+  display: flex;
+  gap: 4em;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 94.8%;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+input {   /* INPUT SEARCH */ 
+  position: absolute;
+  width: 314px;
+  height: 60px;
+  left: 1132px;
+  top: 62px;
+  text-indent: 3em;
+  background: transparent;
+  box-shadow: 0px 12px 40px -16px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  border: transparent;
+}
+input:focus {
+  border-color: transparent;
+  outline: none;
+}
+
+::placeholder {
+  position: relative;
+  font-size: 22px;
+  left: 32px;
+}
+button { /* INPUT BUTTON */ 
+  position: relative;
+  width: 40px;
+  height: 20px;
+  left: 1150px;
+  top: 70px;
+  border: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #ff7e00;
+}
+li:hover {
+  font-size: 23px;
+}
+#ordernow:hover { 
+  position: absolute;
+  color: #000000;
+  font-size: 22px;
+  background-color: #ff7e00;
+  width: 195px;
+  height: 70px;
+}
+
+#imagesearch1 { 
+  position: absolute;
+  width: 45px;
+  height: 0px;
+  left: 1350px;
+  top: 90px;
+
+  border: 1px solid rgba(148, 140, 140, 0.31);
+  transform: rotate(90deg);
+}
+
+svg { /* CART */
+  position: relative;
+  left: 180px;
+  top: 2px;
+  width: 25px;
+  height: 25px;
+}
+
+h2 /*FAST TEXT*/ {
+  position: absolute;
+  width: 262px;
+  height: 119px;
+  left: 87px;
+  top: 192px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 125px;
+  line-height: 94.8%;
+
+  letter-spacing: -0.035em;
+
+  color: #ff7e00;
+}
+#textsection1 { /* FOOD TEXT*/
+  position: absolute;
+  width: 221px;
+  height: 98px;
+  left: 366px;
+  top: 252.94px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 94.8%;
+  /* or 49px */
+
+  color: #2f2f2f;
+}
+
+#imagesection { /* ARROW DOTTED*/
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 475px;
+  top: 170px;
+}
+
+#sectiontext1 { /* LOREM TEXT*/
+  position: absolute;
+  width: 568px;
+  height: 62px;
+  left: 93px;
+  top: 396px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 138.8%;
+
+  color: #909090;
+}
+
+#ordernow { /* BUTTON ORDER*/
+  position: absolute;
+  width: 188px;
+  height: 70px;
+  left: 93px;
+  top: 491.94px;
+
+  background: #2f2f2f;
+  box-shadow: 0px 20px 32px -8px rgba(0, 0, 0, 0.2);
+  border-radius: 84px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 94.8%;
+  color: #f4ece1;
+}
+
+#watchvideolink { /* BUTTON VIDEO*/
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  left: 309px;
+  top: 496.94px;
+}
+
+#watchvideotext { /*TEXT VIDEO*/
+  position: absolute;
+  font-size: 20px;
+  left: 400px;
+  top: 495px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  color: #2f2f2f;
+}
+
+#rating { /* STAR RATING*/
+  position: absolute;
+  width: 255px;
+  height: 92px;
+  left: 93px;
+  top: 600px;
+}
+
+#imagefoods { /* BODY IMAGE */
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  left: 655px;
+  top: 150px;
+}
+
+/* RESPONSIVE DESING */
+@media screen and (min-width: 350px) and (max-width: 1000px) {
+  body {
+    width: 100vh;
+  }
+  ul {
+    font-size: 14px;
+    height: 31px;
+    top: 85px;
+    left: -10px;
+  }
+
+  #logoimage {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 130px;
+    top: 45px;
+  }
+
+  #logotext {
+    position: absolute;
+    width: 58px;
+    height: 45px;
+    left: 165px;
+    top: 18px;
+  }
+
+  #search {
+    position: absolute;
+    width: 175px;
+    height: 31px;
+    left: -1075px;
+    top: 85px;
+  }
+
+  h2 {
+    position: absolute;
+    font-size: 115px;
+    left: 8px;
+    top: 149px;
+  }
+  #textsection1 {
+    position: absolute;
+    font-size: 52px;
+    left: 100px;
+    top: 300px;
+  }
+
+  #imagesection {
+    position: absolute;
+    width: 175px;
+    height: 205px;
+    left: 225px;
+    top: 220px;
+  }
+
+  #sectiontext1 {
+    position: absolute;
+    width: 414px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 138.8%;
+    text-align: center;
+    top: 450px;
+    left: -2px;
+  }
+
+  #ordernow {
+    top: 570px;
+    left: 10px;
+    width: 145px;
+    height: 50px;
+    font-size: 16px;
+  }
+  #watchvideolink {
+    top: 565px;
+    left: 170px;
+  }
+  #watchvideotext {
+    position: absolute;
+    top: 565px;
+    left: 255px;
+    font-size: 18px;
+  }
+
+  #rating {
+    position: absolute;
+    width: 350px;
+    height: 120px;
+    left: 1px;
+    top: 650px;
+  }
+
+  #imagefoods {
+    position: absolute;
+    width: 409px;
+    height: 386px;
+    left: 3px;
+    top: 900px;
+  }
+}
