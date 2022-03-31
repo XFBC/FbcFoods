@@ -1,4 +1,4 @@
-# FbcFoods
+# FbcFoods - Landing Page
 
 Projeto realizado para desenvolver e praticar meus conhecimentos técnicos. 
 
