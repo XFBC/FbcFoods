@@ -17,7 +17,8 @@ body {
   top: 46px;
   font-family: 'Poppins', sans-serif;
 }
-ul {  /* BAR NAVIGATION*/ 
+ul {
+  /* BAR NAVIGATION*/
   font-family: 'Poppins', sans-serif;
   position: absolute;
   width: 66px;
@@ -38,7 +39,8 @@ a {
   text-decoration: none;
   color: #000000;
 }
-input {   /* INPUT SEARCH */ 
+input {
+  /* INPUT SEARCH */
   position: absolute;
   width: 314px;
   height: 60px;
@@ -62,7 +64,8 @@ input:focus {
   font-size: 22px;
   left: 32px;
 }
-button { /* INPUT BUTTON */ 
+button {
+  /* INPUT BUTTON */
   position: relative;
   width: 40px;
   height: 20px;
@@ -78,7 +81,7 @@ a:hover {
 li:hover {
   font-size: 23px;
 }
-#ordernow:hover { 
+#ordernow:hover {
   position: absolute;
   color: #000000;
   font-size: 22px;
@@ -87,7 +90,7 @@ li:hover {
   height: 70px;
 }
 
-#imagesearch1 { 
+#imagesearch1 {
   position: absolute;
   width: 45px;
   height: 0px;
@@ -98,7 +101,8 @@ li:hover {
   transform: rotate(90deg);
 }
 
-svg { /* CART */
+svg {
+  /* CART */
   position: relative;
   left: 180px;
   top: 2px;
@@ -123,7 +127,8 @@ h2 /*FAST TEXT*/ {
 
   color: #ff7e00;
 }
-#textsection1 { /* FOOD TEXT*/
+#textsection1 {
+  /* FOOD TEXT*/
   position: absolute;
   width: 221px;
   height: 98px;
@@ -140,7 +145,8 @@ h2 /*FAST TEXT*/ {
   color: #2f2f2f;
 }
 
-#imagesection { /* ARROW DOTTED*/
+#imagesection {
+  /* ARROW DOTTED*/
   position: absolute;
   width: 200px;
   height: 200px;
@@ -148,7 +154,8 @@ h2 /*FAST TEXT*/ {
   top: 170px;
 }
 
-#sectiontext1 { /* LOREM TEXT*/
+#sectiontext1 {
+  /* LOREM TEXT*/
   position: absolute;
   width: 568px;
   height: 62px;
@@ -164,7 +171,8 @@ h2 /*FAST TEXT*/ {
   color: #909090;
 }
 
-#ordernow { /* BUTTON ORDER*/
+#ordernow {
+  /* BUTTON ORDER*/
   position: absolute;
   width: 188px;
   height: 70px;
@@ -183,7 +191,8 @@ h2 /*FAST TEXT*/ {
   color: #f4ece1;
 }
 
-#watchvideolink { /* BUTTON VIDEO*/
+#watchvideolink {
+  /* BUTTON VIDEO*/
   position: absolute;
   width: 57px;
   height: 57px;
@@ -191,7 +200,8 @@ h2 /*FAST TEXT*/ {
   top: 496.94px;
 }
 
-#watchvideotext { /*TEXT VIDEO*/
+#watchvideotext {
+  /*TEXT VIDEO*/
   position: absolute;
   font-size: 20px;
   left: 400px;
@@ -203,7 +213,8 @@ h2 /*FAST TEXT*/ {
   color: #2f2f2f;
 }
 
-#rating { /* STAR RATING*/
+#rating {
+  /* STAR RATING*/
   position: absolute;
   width: 255px;
   height: 92px;
@@ -211,7 +222,8 @@ h2 /*FAST TEXT*/ {
   top: 600px;
 }
 
-#imagefoods { /* BODY IMAGE */
+#imagefoods {
+  /* BODY IMAGE */
   position: absolute;
   width: 800px;
   height: 600px;
@@ -226,7 +238,6 @@ h2 /*FAST TEXT*/ {
   }
   ul {
     font-size: 14px;
-    height: 31px;
     top: 85px;
     left: -10px;
   }
@@ -235,7 +246,7 @@ h2 /*FAST TEXT*/ {
     position: absolute;
     width: 32px;
     height: 32px;
-    left: 130px;
+    left: 120px;
     top: 45px;
   }
 
@@ -243,7 +254,7 @@ h2 /*FAST TEXT*/ {
     position: absolute;
     width: 58px;
     height: 45px;
-    left: 165px;
+    left: 152px;
     top: 18px;
   }
 
@@ -255,6 +266,23 @@ h2 /*FAST TEXT*/ {
     top: 85px;
   }
 
+  #cart {
+    position: absolute;
+    top: -2px;
+    left: 20px;
+  }
+
+  a:hover {
+    color: #ff7e00;
+  }
+  li:hover {
+    font-size: 20px;
+  }
+
+  #buttonsearch {
+    position: relative;
+    top: 80px;
+  }
   h2 {
     position: absolute;
     font-size: 115px;
@@ -317,7 +345,7 @@ h2 /*FAST TEXT*/ {
 
   #imagefoods {
     position: absolute;
-    width: 409px;
+    width: 385px;
     height: 386px;
     left: 3px;
     top: 900px;
