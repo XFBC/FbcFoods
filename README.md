@@ -12,7 +12,7 @@ Pagina criada utilizando HTML5 e CSS3.
 Criado com VSCODE 
 
 
-Clique no link abaixo para visualzar a pagina. 
+Clique no link abaixo para visualizar a pagina. 
 
 https://xfbc.github.io/FbcFoods/
 
